@@ -1,0 +1,33 @@
+li {
+    height: 36px;
+    padding: 0 5px;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+    line-height: 36px;
+}
+
+li label {
+    float: left;
+    cursor: pointer;
+}
+
+li label li input {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+li button {
+    display: none;
+    float: right;
+    margin-top: 3px;
+}
+
+li::before {
+    content: initial;
+}
+
+li:last-child {
+    border-bottom: none;
+}
