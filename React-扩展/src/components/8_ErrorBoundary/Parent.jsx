@@ -7,10 +7,11 @@ export default class Parent extends Component {
 		hasError:'' //用于标识子组件是否产生错误
 	}
 
-	//当Parent的子组件出现报错时候，会触发getDerivedStateFromError调用，并携带错误信息
+	// 当Parent的子组件出现报错时候
+  // 会触发getDerivedStateFromError调用，并携带错误信息
 	static getDerivedStateFromError(error){
-		console.log('@@@',error);
-		return {hasError:error}
+		console.log('@@@', error);
+		return { hasError: error }
 	}
 
 	componentDidCatch(){

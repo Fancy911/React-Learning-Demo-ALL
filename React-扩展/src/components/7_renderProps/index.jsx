@@ -27,13 +27,13 @@ class A extends Component {
 	}
 }
 
-class B extends Component {
-	render() {
-		console.log('B--render');
-		return (
-			<div className="b">
-				<h3>我是B组件,{this.props.name}</h3>
-			</div>
-		)
-	}
-}
+// class B extends Component {
+// 	render() {
+// 		console.log('B--render');
+// 		return (
+// 			<div className="b">
+// 				<h3>我是B组件,{this.props.name}</h3>
+// 			</div>
+// 		)
+// 	}
+// }
